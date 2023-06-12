@@ -1,0 +1,88 @@
+*{
+
+    margin: 0%;
+}
+
+/* header */
+header {
+    background-color: #111111;
+}
+
+
+
+
+/*body*/
+
+.fondo-historia {
+
+    background-image: url(/imagenes/backgroundimage2.webp);
+    width: 100%
+}
+
+/*parallax*/
+
+/*parallax*/
+
+.imagen-principal {
+    display: flex;
+    justify-content:center;
+    margin: auto
+}
+.biografia-banda{
+    color:black ;
+    font-size: x-large;
+}
+
+.nombre-integrantes {
+    font-size: xx-large;
+    font-style: italic
+}
+
+body {
+    background-size: 0cap
+}
+
+.historia {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.nombre-integrantes {
+    font-size: larger
+}
+
+.conciertos {
+    font-style: italic;
+    font-size: xx-large
+}
+
+.ultimos-conciertos {
+
+    font-size: x-large;
+}
+
+.integrantes {
+    font-size: x-large;
+
+}
+
+.texto-historia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger
+}
+
+.imagen-los-redondos {
+    opacity: 0.7;
+    display: flex;
+    justify-content: center
+}
+/*footer*/
+.tamaño-del-footer {
+    font-size: xx-large;
+}
+
+.tamaño-contacto {
+    font-size: x-large;
+}
