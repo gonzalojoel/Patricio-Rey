@@ -1,4 +1,4 @@
-*{
+* {
 
     margin: 0%;
 }
@@ -7,16 +7,37 @@
 header {
     background-color: #111111;
 }
-
-
-
+.imagen-back{
+    background-image: url(../imagenes/backgroundimage2.webp);
+}
 
 /*body*/
+.imagen-redondos {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black
 
-.fondo-historia {
 
-    background-image: url(/imagenes/backgroundimage2.webp);
-    width: 100%
+    
+}
+
+.imagen-redondos img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-redondos p {
+    font-size: 3.4rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
 }
 
 /*parallax*/
@@ -25,11 +46,12 @@ header {
 
 .imagen-principal {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin: auto
 }
-.biografia-banda{
-    color:black ;
+
+.biografia-banda {
+    color: black;
     font-size: x-large;
 }
 
@@ -73,11 +95,6 @@ body {
     font-size: larger
 }
 
-.imagen-los-redondos {
-    opacity: 0.7;
-    display: flex;
-    justify-content: center
-}
 /*footer*/
 .tamaño-del-footer {
     font-size: xx-large;
@@ -86,3 +103,6 @@ body {
 .tamaño-contacto {
     font-size: x-large;
 }
+
+/*Mobile----------------------------------------*/
+@media only screen and (max-width:500px) {}
