@@ -8,6 +8,7 @@ header {
     background-color: #111111;
 }
 .imagen-back{
+
     background-image: url(../imagenes/backgroundimage2.webp);
 }
 
@@ -43,12 +44,6 @@ header {
 /*parallax*/
 
 /*parallax*/
-
-.imagen-principal {
-    display: flex;
-    justify-content: center;
-    margin: auto
-}
 
 .biografia-banda {
     color: black;
