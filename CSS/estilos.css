@@ -13,41 +13,43 @@ header {
 }
 
 /*body*/
-.imagen-redondos {
-    width: 1000px;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-    margin: 200px auto;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black
-
-
+.nav-link{
+    font-style: italic;
+    font-size: 2em
     
 }
-
-.imagen-redondos img {
-    width: 100%;
-    height: 100%;
+.titulo-contacto{
+    text-align: center;
+}
+.banda-imagen{
+display: flex;
+justify-content: center;
 }
 
-.imagen-redondos p {
-    font-size: 3.4rem;
-    color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%-50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
+.imagen-de-la-historia{
+    filter: grayscale(90%);
+    cursor: pointer;
+
 }
-
-/*parallax*/
-
-/*parallax*/
+.imagen-de-la-historia:hover{
+    filter: grayscale(0%);
+}
+.imagen-uno-concierto{
+    width: 35rem;
+}
+.imagen-dos-concierto{
+    width: 40rem;
+}
 
 .biografia-banda {
     color: black;
     font-size: x-large;
+}
+.letra-introduccion-biografia{
+    
+    font-size: 1,5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem;
 }
 
 .nombre-integrantes {
@@ -63,7 +65,9 @@ body {
     color: black;
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
 }
 
 .nombre-integrantes {
@@ -71,8 +75,12 @@ body {
 }
 
 .conciertos {
-    font-style: italic;
-    font-size: xx-large
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
 }
 
 .ultimos-conciertos {
