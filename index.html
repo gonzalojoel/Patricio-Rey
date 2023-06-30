@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-xl bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./imagenes/primera imagen.jpg" class="rounded"
                         alt="navbar-img-inicio" width="100 height 80"></a>
@@ -36,9 +36,9 @@
                                 Integrantes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Carlos Alberto ¨el indio¨ Solari</a></li>
-                                <li><a class="dropdown-item" href="#">Carmen Castro ¨la negra poli¨</a></li>
-                                <li><a class="dropdown-item" href="#">Eduardo Federico ¨skay¨ Beilinson</a></li>
+                                <li><a class="dropdown-item" href="./html/indio.html">Carlos Alberto ¨el indio¨ Solari</a></li>
+                                <li><a class="dropdown-item" href="./poli.html">Carmen Castro ¨la negra poli¨</a></li>
+                                <li><a class="dropdown-item" href="./skay.html">Eduardo Federico ¨skay¨ Beilinson</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -58,9 +58,13 @@
     <section class="container">
         <div>
             <h1 class="historia">Introduccion a la biografia</h1>
-            <p class="letra-introduccion-biografia">Patricio Rey y sus Redonditos de Ricota, también conocidos como Los Redondos, fue una banda de rock de La Plata, Argentina, que está considerada como una de las bandas más importantes e influyentes de la música popular argentina
+            <p class="letra-introduccion-biografia">Patricio Rey y sus Redonditos de Ricota, también conocidos como Los
+                Redondos, fue una banda de rock de La Plata, Argentina, que está considerada como una de las bandas más
+                importantes e influyentes de la música popular argentina
                 <br>
-                Si bien la fecha exacta del origen de la banda es difícil de ubicar. Una de las leyendas urbanas que sobrevuela al grupo afirma que la banda se formó el 28 de diciembre de 1976. El dato nunca fue completamente confirmado ni tampoco desmentido.
+                Si bien la fecha exacta del origen de la banda es difícil de ubicar. Una de las leyendas urbanas que
+                sobrevuela al grupo afirma que la banda se formó el 28 de diciembre de 1976. El dato nunca fue
+                completamente confirmado ni tampoco desmentido.
                 </pa>
         </div>
         <div class="banda-imagen">
@@ -71,43 +75,61 @@
     </section>
     <main>
         <nav>
-            <section class="row">
+            <section class="row m-5">
                 <h2 class="conciertos">Conciertos</h2>
-                <div class="col-6">
-                    <img class="imagen-uno-concierto" src="./imagenes/imagen-para-conciertos.jpg" alt="">
+                <div class="col-xl-6">
+                    <a href="./html/conciertos.html">
+                        <img class="imagen-uno-concierto" src="./imagenes/imagen-para-conciertos.jpg"
+                            alt="primera imagen concierto"></a>
                 </div>
-                <div class="col-6">
-                    <img class="imagen-dos-concierto" src="./imagenes/imagen-segunda-para-concierto.jpg" alt="">
+                <div class="col-xl-6">
+                    <a href="./html/conciertos.html">
+                        <img class="imagen-dos-concierto" src="./imagenes/imagen-segunda-para-concierto.jpg"
+                            alt="segunda imagen concierto"></a>
                 </div>
             </section>
-
-            <nav class="ultimos-conciertos">
-                <a href="html/conciertos.html">Ultimos conciertos</a>
-            </nav>
-
-            <h3 class="">Integrantes</h3>
+            <h3 class="titulo-integrantes">Integrantes Principales</h3>
             <div>
-                <nav class="integrantes">
-                    <a href="html/integrantes.html">Integrantes</a>
-                </nav>
-
-            </div><img src="imagenes/las cabezas.webp" alt="imagen las tres cabezas">
-            <nav class="nombre-integrantes">
-                <h4></h4><a href="nombre y appelido"> Carlos Alberto ¨el indio¨ Solari
-                    <h5></h5> <a href="nombre y apellido"> Carmen Castro ¨la negra poli¨
-                        <h6></h6> <a href="nombre y apellido"> Eduardo Federico ¨skay¨ Beilinson
-
-                        </a>
-                    </a>
-                </a>
-            </nav>
+                <div class="container-fluid text-center">
+                    <div class="row align-items-center">
+                        <div class="col mt-3">
+                            <p class="integrante-indio">Carlos Alberto 'el indio' Solari</p>
+                            <a href="./html/indio.html">
+                                <img class="imagen-integrante-indio" src="./imagenes/integrante-indio.avif"
+                                    alt="imagen indio"></a>
+                        </div>
+                        <div class="col mt-3">
+                            <p class="integrante-poli">Carmen Castro 'la negra poli'</p>
+                            <a href="./poli.html">
+                                <img class="imagen-integrante-poli" src="./imagenes/integrante-lanegrapoli.jpg"
+                                    alt="imagen negra poli"></a>
+                        </div>
+                        <div class="col mt-3">
+                            <p class="integrante-skay">Eduardo Federico 'skay' Beilinson'</p>
+                            <a href="./skay.html">
+                                <img class="imagen-integrante-skay" src="./imagenes/integrante-skay.webp"
+                                    alt="imagen skay"></a>
+                        </div>
+                    </div>
     </main>
-
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    </div>
     <footer>
-        <p class="tamaño-del-footer">Encontranos en:</p>
-        <nav class="tamaño-contacto">
-            <a href="html/contacto.html">contacto</a>
-        </nav>
+        <section class="container mt-5">
+
+            <nav class="tamaño-contacto">
+                <ul>
+                    <p class="tamaño-del-footer">Encontranos en:</p>
+                    <li>
+                        <a href="./html/contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
