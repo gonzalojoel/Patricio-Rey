@@ -1,26 +1,23 @@
-* {
-
-    margin: 0%;
-}
 
 /* header */
-header {
-    background-color: #111111;
-}
-
-.imagen-back {
-
-    background-image: url(../imagenes/backgroundimage2.webp);
-}
-
-/*body*/
 .nav-link {
     font-style: italic;
     font-size: 2em
 }
+.historia {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
+}
 
-.titulo-contacto {
-    text-align: center;
+.letra-introduccion-biografia {
+
+    font-size: 1,5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem;
 }
 
 .banda-imagen {
@@ -39,6 +36,14 @@ header {
     filter: grayscale(0%);
 }
 /* Main */
+.conciertos {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
+}
 .imagen-uno-concierto {
     filter: grayscale(90%);
     cursor: pointer;
@@ -65,17 +70,6 @@ header {
     filter: grayscale(0%);
 }
 
-.biografia-banda {
-    color: black;
-    font-size: x-large;
-}
-
-.letra-introduccion-biografia {
-
-    font-size: 1,5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 2rem;
-}
 .titulo-integrantes{
     color: black;
     display: flex;
@@ -86,57 +80,40 @@ header {
 
 }
 
-.historia {
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3em;
-    padding: 3rem;
-}
-
-.conciertos {
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3em;
-    padding: 3rem;
-}
-
-.ultimos-conciertos {
-
-    font-size: x-large;
-}
 .integrante-indio {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
 
 }
-.integrante-poli {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-}
-.integrante-skay {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-}
+
 .imagen-integrante-indio{
     width: 20rem;
     height: 20rem;
     border-radius: 5px;
 }
+
+.integrante-poli {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
 .imagen-integrante-poli{
     width: 20rem;
     height: 20rem;
     border-radius: 5px;
 }
+
+.integrante-skay {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
 .imagen-integrante-skay{
     width: 20rem;
     height: 20rem;
     border-radius: 5px;
 }
-
 
 /* Html historia */
 .historia-imagen-principal {
@@ -158,16 +135,17 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 2rem;
 }
-.texto-siguiente-historia {
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 2rem;
-}
 .historia-imagen2 {
     width: 70rem;
 
     border-radius: 10px;
 }
+.texto-siguiente-historia {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem;
+}
+
 /* Html Indio */
 .indio-imagen {
     width: 50rem;
@@ -203,6 +181,12 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 2rem;
 }
+.poli-imagen {
+    width: 50rem;
+
+    border-radius: 10px;
+
+}
 /* Html skay */
 .skay-titulo {
     color: black;
@@ -223,39 +207,64 @@ header {
 
     border-radius: 10px;
 }
-/* Html Contacto */
-.instagram-logo {
-    width: 10rem;
+/*Html Conciertos*/
+.card-title-olavarria{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.card-text-olavarria{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-title-tandil {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.card-text-tandil {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-title-mendoza {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.card-text-mendoza {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-title-mdz {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.card-text-mdz {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
 /*footer*/
-.redes {
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-    padding: 0 10px;
-  }
 .tamaño-del-footer {
     color: black;
     display: flex;
     justify-content:start;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2rem;
-margin: 1rem;
-margin-left: 1rem;
-margin-top: 5rem;
+    margin: 1rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
 
-}
-.tamaño-contacto {
-    font-size: x-large;
-}
 .texto-link-contacto{
-    color: black;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 2rem;
-
-}
-.texto-link-inicio{
     color: black;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -268,6 +277,14 @@ margin-top: 5rem;
     padding: 2rem;
 
 }
+.texto-link-inicio{
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem;
+
+}
+
 
 /*Mobile----------------------------------------*/
 @media only screen and (max-width:500px) {}

@@ -1,0 +1,115 @@
+/*index*/
+/*Header*/
+.historia {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
+
+    .letra-introduccion-biografia {
+
+        font-size: 1, 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 2rem;
+    }
+
+}
+.banda-imagen {
+    display: flex;
+    justify-content: center;
+
+    .imagen-de-la-historia {
+        filter: grayscale(90%);
+        cursor: pointer;
+        border-radius: 10px;
+
+        .imagen-de-la-historia:hover {
+            filter: grayscale(0%);
+        }
+
+    }
+}
+
+/*Main*/
+.conciertos {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
+
+    .imagen-uno-concierto {
+        filter: grayscale(90%);
+        cursor: pointer;
+        margin-top: 1rem;
+        width: 34rem;
+        height: 20rem;
+        border-radius: 5px;
+
+        .imagen-uno-concierto:hover {
+            filter: grayscale(0%);
+        }
+    }
+}
+
+.imagen-dos-concierto {
+    filter: grayscale(90%);
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 36rem;
+    border-radius: 5px;
+
+    .imagen-dos-concierto:hover {
+        filter: grayscale(0%);
+    }
+}
+
+.titulo-integrantes {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    padding: 3rem;
+
+    .integrante-indio {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+
+        .imagen-integrante-indio {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 5px;
+        }
+
+    }
+
+    .integrante-poli {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+
+        .imagen-integrante-poli {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 5px;
+        }
+    }
+    
+    .integrante-skay {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        
+        .imagen-integrante-skay{
+            width: 20rem;
+            height: 20rem;
+            border-radius: 5px;
+        }
+    }
+
+
+}
+
+
